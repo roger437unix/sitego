@@ -1,0 +1,4 @@
+
+docker build --tag sitego . 
+
+docker run -d --rm --name sitego -p 8000:8000 sitego:latest 
